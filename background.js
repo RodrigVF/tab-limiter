@@ -183,12 +183,12 @@ const app = {
 		browser.storage.sync.set({
 			defaultOptions: {
 				maxTotal: 5,
-				maxWindow: 2,
+				maxWindow: 5,
 				exceedTabNewWindow: false,
 				displayAlert: true,
 				countPinnedTabs: false,
 				displayBadge: false,
-				alertMessage: "Não é permitido abrir mais de {maxPlace} abas em {place}"
+				alertMessage: "Não é permitido abrir mais de {maxPlace} abas"
 			}
 		});
 
