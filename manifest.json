@@ -1,8 +1,8 @@
 {
-	"name": "Tab Limiter",
-	"description": "Limit the number of open tabs – in total and per window",
+	"name": "Limitador de Tabs",
+	"description": "Limita o número de tabs em 5 para o chrome",
 	"version": "0.3.0",
-	"author": "Matthias Vogt",
+	"author": "Matthias Vogt, edited By Rodrigo Ferreira",
 	"homepage_url": "https://github.com/matthias-vogt/tab-limiter",
 
 	"icons": {
@@ -16,7 +16,7 @@
 			"128": "icons/128.png"
 		},
 		"default_popup": "options.html",
-		"default_title": "Tab Limiter"
+		"default_title": "Limitador de Tabs"
 	},
 	"options_page": "options.html",
 	"background": {
@@ -28,5 +28,5 @@
 		"storage"
 	],
 
-	"manifest_version": 2
+	"manifest_version": 3
 }
